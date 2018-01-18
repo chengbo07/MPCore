@@ -5,13 +5,13 @@ Pod::Spec.new do |s|
 
   s.description  = "MotionPortrait free SDK"
 
-  s.homepage     = "https://github.com/chengbo07/MPCore"
+  s.homepage     = "https://github.com/Secretlisa/MPCore"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "bo" => "chbo07@163.com" }
 
   s.platform     = :ios, "8.0"
   s.source       = {
-                     :git => "https://github.com/chengbo07/MPCore.git",
+                     :git => "https://github.com/Secretlisa/MPCore.git",
                      :tag => s.version
   }
 
