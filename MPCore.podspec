@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   }
 
   s.source_files  = "include", "lib.iOS/*.{a}"
-  s.framework = 'AVFoundation', 'AuartzCore', 'ImageIO', 'UIKit', 'CoreGraphics', 'GLKit', 'OpenGLES'
+  s.framework = 'AVFoundation', 'QuartzCore', 'ImageIO', 'UIKit', 'CoreGraphics', 'GLKit', 'OpenGLES'
   s.license = 'MIT'
   s.library = 'c++'
 
