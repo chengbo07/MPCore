@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   s.framework = 'AVFoundation', 'AuartzCore', 'ImageIO', 'UIKit', 'CoreGraphics', 'GLKit', 'OpenGLES'
   s.license = 'MIT'
   s.libraries = 'c++'
+  spec.compiler_flags = '__cplusplus=1'
 
 end
